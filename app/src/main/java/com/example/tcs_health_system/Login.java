@@ -73,7 +73,7 @@ public class Login extends AppCompatActivity {
 
                         if (email.equals(email_id) && password.equals(id_pass)) {
                             progressBar.setVisibility(View.GONE);
-                            startActivity(new Intent(Login.this,files.class));
+                            startActivity(new Intent(Login.this,MainActivity.class));
                             finish();
 
                             SharedPreferences pref=getSharedPreferences(PREFS_NAME,0);
