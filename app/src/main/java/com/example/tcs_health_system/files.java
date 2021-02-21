@@ -87,10 +87,8 @@ public class files extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                addPdf();
-                Snackbar.make(view, "Files Uploaded Successfully", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
+                addPdf();  
+           }
         });
     }
 
@@ -130,6 +128,7 @@ public class files extends AppCompatActivity {
                                         DatabaseReference subdata = dbr.child(item.getText().toString());
                                         subdata.child("File_Name").setValue(item.getText().toString());
                                         subdata.child("File_Source").setValue(uri.toString());
+                                        Toast.makeText(files.this, "File Uploaded Successfully", Toast.LENGTH_LONG).show();
                                     } else
                                         Toast.makeText(files.this, "Give a specific name to Your file", Toast.LENGTH_LONG).show();
                                 }
