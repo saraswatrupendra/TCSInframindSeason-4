@@ -20,15 +20,6 @@ public class SendMailTask extends AsyncTask {
         sendMailActivity = activity;
     }
 
-    protected void onPreExecute() {
-//        statusDialog = new ProgressDialog(sendMailActivity);
-//        statusDialog.setMessage("Getting ready...");
-//        statusDialog.setIndeterminate(false);
-//        statusDialog.setCancelable(false);
-//        statusDialog.show();
-//        //Toast.makeText(SendMailTask.this, "fdgdfdfg", Toast.LENGTH_SHORT).show();
-        Log.v("yhnju","mail sent");
-    }
 
     @Override
     protected Object doInBackground(Object... args) {
@@ -51,16 +42,5 @@ public class SendMailTask extends AsyncTask {
         return null;
     }
 
-    @Override
-    public void onProgressUpdate(Object... values) {
-//        statusDialog.setMessage(values[0].toString());
-
-    }
-
-    @Override
-    public void onPostExecute(Object result) {
-
-        //statusDialog.dismiss();
-    }
-
+    
 }
