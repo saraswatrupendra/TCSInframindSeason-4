@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+
+    <item  android:id="@+id/ChatBot"
+        android:title="ChatBot"/>
+    <item  android:id="@+id/Updf"
+        android:title="Upload Pdf"/>
+        app:showAsAction="withText"/>
+</menu>

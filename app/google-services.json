@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450218138574",
+    "project_id": "tcs-health-system",
+    "storage_bucket": "tcs-health-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450218138574:android:d25a2cd43435f30acc299f",
+        "android_client_info": {
+          "package_name": "com.example.tcs_health_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450218138574-c9knhmuova5pnkdr7a57ikk7khavl1v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfVSC-u4wBvsNHpMtQwL5UFbDWsvqe_ZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450218138574-c9knhmuova5pnkdr7a57ikk7khavl1v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
