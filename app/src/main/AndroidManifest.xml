@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/tcs"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/tcs"
         android:supportsRtl="true"
         android:theme="@style/Theme.TCS_Health_System">
         <activity android:name=".chatbot" />
@@ -26,15 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        <service-->
-<!--            android:name=".service.MyService"-->
-<!--            android:enabled="true"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.BOOT_COMPLETED"/>-->
-<!--&lt;!&ndash;            </intent-filter>&ndash;&gt;-->
-
-<!--        </service>-->
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
