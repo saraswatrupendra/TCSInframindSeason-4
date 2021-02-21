@@ -335,5 +335,12 @@ public class MainActivity extends AppCompatActivity {
     public interface EODCallBack {
         void onCallback(String value);
     }
+    
+    
+     @Override
+    public void onBackPressed() {
+        finishAffinity();
+        finish();
+    }
 
 }
