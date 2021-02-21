@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     RequestQueue queue;
-    private static String url="https://5a265dbb-00bb-4313-85b5-13aa4f0ff0b8.mock.pstmn.io/healthparam";
+    private static String url="https://httpbin.org/post";
     private String Uame;
     private Timer timer = new Timer();
     HashMap<String, Integer> paramsnew = new HashMap<String, Integer>();
@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
         params.put("FEV (%)", (int)new Random().nextInt(40)+37);
 
 
-        JsonObjectRequest jos=new JsonObjectRequest(Request.Method.POST, "https://httpbin.org/post", new JSONObject(params), new Response.Listener<JSONObject>() {
+        JsonObjectRequest jos=new JsonObjectRequest(Request.Method.POST, url, new JSONObject(params), new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
                         JSONObject job = null;
